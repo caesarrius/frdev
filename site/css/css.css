@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Bitter-Regular";
+    src: url('../fonts/Bitter-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Bitter-Italic";
+    src: url('../fonts/Bitter-Italic.ttf');
+}
+
+@font-face {
+    font-family: "Bitter-Bold";
+    src: url('../fonts/Bitter-Bold.ttf');
+}
+
+.body {
+    margin: 0;
+    font-family: 'Bitter-Regular', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: lavender;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    color: indigo;
+    flex: 0;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.aside {
+    width: 300px;
+    flex: 0;
+}
+
+.main-section {
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+.img {
+    border: 5px solid blueviolet ;
+}
+
+.title{
+    color: indigo;
+    font-family: 'Bitter-Regular', serif;
+}
+
+.subtitle{
+    border-left: 10px solid blueviolet ;
+    padding-left: 10px;
+    color: indigo;
+    margin-top: 30px;
+    font-family: 'Bitter-Regular', serif;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-icon {
+    margin-right: 20px;
+}
+
+.link{
+    color: blueviolet;
+    transition: color .4s;
+}
+
+.link:hover{
+    color: crimson;
+}
+
+.header-link.link {
+    margin: 0 10px;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    color: lavender ;
+}
